@@ -40,7 +40,7 @@ function App() {
   return (
     <>
     <Router>
-    <Navbar title="Text Editor By Tanveer" mode={mode} toggleMode={toggleMode} key={new Date()} />
+    <Navbar title=" TextEditor " mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
     <Switch>
@@ -50,7 +50,7 @@ function App() {
             <About mode={mode} />
           </Route>
           <Route exact path="/">
-            <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>
+            <TextForm showAlert={showAlert} heading=" TextEditor - For Copying , Editing , Converting text case " mode={mode}/>
           </Route>
     </Switch>
     </div>
